@@ -1,10 +1,10 @@
 package org.example.geeksamazon;
 
 import java.util.Stack;
-
+//https://www.geeksforgeeks.org/problems/parenthesis-checker2744/1
 public class ParenthesisChecker {
 
-    static boolean ispar(String x)
+    static boolean isBalanced(String x)
     {
         Stack<Character> stack=new Stack<>();
         for (int i = 0; i < x.length(); i++) {
