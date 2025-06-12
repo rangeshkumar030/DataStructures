@@ -3,6 +3,7 @@ package org.example.greedy;
 import java.util.Arrays;
 
 //https://www.hackerrank.com/contests/kilobyte-uz-contest1/challenges/trains-and-platforms/problem
+//https://www.geeksforgeeks.org/problems/minimum-platforms-1587115620/1
 public class MinimumPlatforms {
 
     static int findPlatform(int arr[], int dep[], int n)
